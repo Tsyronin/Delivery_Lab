@@ -22,7 +22,7 @@ namespace DeliveryLab.Models
         [MaxLength(50)]
         public string Name { get; set; }
 
-        [Display(Name = "Dish")]
+        [Display(Name = "Description")]
         [Required(ErrorMessage = "This field must not be empty")]
         [MaxLength(200)]
         public string Description { get; set; }
